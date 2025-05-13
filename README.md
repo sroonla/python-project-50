@@ -1,22 +1,5 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/sroonla/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/sroonla/python-project-50/actions)
+# Automatic tests
 
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/sroonla/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/sroonla/python-project-50/actions)
+After completing all the steps in the project, automatic tests will become available to you. Tests are run on each commit - once all tasks in the Hexlet interface are completed, make a commit, and the tests will run automatically.
 
-# Вычислитель отличий
-
-**gendiff** — это консольная утилита, которая находит различия между двумя конфигурационными файлами.
-
-Поддерживаются форматы: `JSON` (плоские объекты).
-
-## 🔧 Установка
-
-```bash
-git clone https://github.com/sroonla/python-project-50.git
-cd python-project-50
-make install
-
-### Пример использования
-
-[![asciicast](https://asciinema.org/a/CNifErVNnzar1TJq9T1efBIw3.svg)](https://asciinema.org/a/CNifErVNnzar1TJq9T1efBIw3)
+The hexlet-check.yml file is responsible for running these tests - do not delete this file, edit it, or rename the repository.
