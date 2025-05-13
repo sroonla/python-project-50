@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "A utility to compare two configuration files and show the difference."
+authors = [{ name = "Milena", email = "sr0.onlady@mail.ru" }]
+dependencies = []
+
+[project.scripts]
+gendiff = "gendiff.scripts.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["gendiff"]
