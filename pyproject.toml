@@ -29,10 +29,10 @@ max-line-length = 88
 exclude = [".venv", "__pycache__", "build", "dist"]
 
 # Настройки для pytest
-[tool.pytest.ini_options]
-addopts = "--cov=gendiff --cov-report=term-missing"
-testpaths = ["tests"]
-python_files = ["test_*.py"]
+#[tool.pytest.ini_options]
+#addopts = "--cov=gendiff --cov-report=term-missing"
+#testpaths = ["tests"]
+#python_files = ["test_*.py"]
 
 # Настройки для coverage
 [tool.coverage.run]

@@ -5,7 +5,7 @@ lint:
 	flake8 gendiff
 
 test:
-	pytest
+	pytest --cov=gendiff --cov-report=term-missing
 
 coverage:
 	coverage run -m pytest && coverage report --fail-under=80
