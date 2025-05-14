@@ -3,3 +3,6 @@ install:
 
 lint:
 	flake8 gendiff
+
+test:
+	pytest
