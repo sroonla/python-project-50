@@ -2,7 +2,7 @@ install:
 	python3 -m venv venv && source venv/bin/activate && pip install .[dev]
 
 lint:
-	flake8 gendiff
+	python -m flake8 gendiff
 
 test:
 	pytest --cov=gendiff --cov-report=term-missing
