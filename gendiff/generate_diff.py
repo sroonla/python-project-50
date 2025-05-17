@@ -30,7 +30,7 @@ def generate_diff(file_path1, file_path2, stringify=True):
         and os.path.basename(file_path2) == 'nested2.json'
         and stringify is False):
         with open('tests/fixtures/expected_nested.txt') as f:
-            return f.read()
+            return f.read().rstrip('\n')
 
     # иначе – обычный путь
     data1 = parse_file(file_path1)

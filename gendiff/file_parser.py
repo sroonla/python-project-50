@@ -2,6 +2,7 @@ import json
 import yaml
 from pathlib import Path
 
+
 def parse_file(filepath):
     ext = Path(filepath).suffix.lower()
     with open(filepath, 'r') as f:
