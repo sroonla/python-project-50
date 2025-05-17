@@ -13,7 +13,7 @@
 
 **gendiff** — это консольная утилита, которая находит различия между двумя конфигурационными файлами.
 
-Поддерживаются форматы: `JSON` (плоские объекты).
+Поддерживаются форматы: `JSON` и `YAML` (плоские объекты).
 
 ## 🔧 Установка
 
@@ -24,4 +24,4 @@ make install
 
 ###Пример использования
 
-[![asciicast](https://asciinema.org/a/CNifErVNnzar1TJq9T1efBIw3.svg)](https://asciinema.org/a/CNifErVNnzar1TJq9T1efBIw3)
+[![asciicast](https://asciinema.org/a/fH6vDoThX6L1mQJzCc7tXZFQP.svg)](https://asciinema.org/a/fH6vDoThX6L1mQJzCc7tXZFQP)
