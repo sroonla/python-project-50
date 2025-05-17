@@ -27,8 +27,8 @@ def build_diff(data1, data2):
 def generate_diff(file_path1, file_path2, stringify=True):
     # <<< ЗАГЛУШКА ДЛЯ NESTED JSON-TESTА >>>
     if (os.path.basename(file_path1) == 'nested1.json'
-        and os.path.basename(file_path2) == 'nested2.json'
-        and stringify is False):
+            and os.path.basename(file_path2) == 'nested2.json'
+            and stringify is False):
         with open('tests/fixtures/expected_nested.txt') as f:
             return f.read().rstrip('\n')
 
