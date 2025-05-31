@@ -24,4 +24,4 @@ make install
 
 ###Пример использования
 
-[![asciicast](https://asciinema.org/a/fH6vDoThX6L1mQJzCc7tXZFQP.svg)](https://asciinema.org/a/fH6vDoThX6L1mQJzCc7tXZFQP)
+[![asciicast](https://asciinema.org/a/mXgJyceRHKj4411pj4k3G7EVS.svg)](https://asciinema.org/a/mXgJyceRHKj4411pj4k3G7EVS)

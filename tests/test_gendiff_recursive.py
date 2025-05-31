@@ -1,11 +1,11 @@
-import difflib
 from gendiff.generate_diff import generate_diff
+import difflib
 
-def test_recursive_yaml():
-    expected = open('tests/fixtures/recursive/yml/expected_recursive_yaml.txt').read()
+def test_recursive_json():
+    expected = open('tests/fixtures/recursive/json/expected_recursive.txt').read()
     result = generate_diff(
-        'tests/fixtures/recursive/yml/recursive1.yml',
-        'tests/fixtures/recursive/yml/recursive2.yml',
+        'tests/fixtures/recursive/json/recursive1.json',
+        'tests/fixtures/recursive/json/recursive2.json',
         format_name='stylish'
     )
     
