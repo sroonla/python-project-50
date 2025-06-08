@@ -26,3 +26,7 @@ def main():
         format_name=args.format
     )
     print(diff)
+
+
+if __name__ == '__main__':
+    main()
