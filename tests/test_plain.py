@@ -22,6 +22,7 @@ test_cases = [
     ),
 ]
 
+
 @pytest.mark.parametrize("file1, file2, expected_file", test_cases)
 def test_plain_format(file1, file2, expected_file):
     file_path1 = os.path.join(FIXTURES_PATH, file1)

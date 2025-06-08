@@ -11,6 +11,7 @@ test_cases = [
     ("recursive/yml/recursive1.yml", "recursive/yml/recursive2.yml"),
 ]
 
+
 @pytest.mark.parametrize("file1, file2", test_cases)
 def test_json_format(file1, file2):
     file_path1 = os.path.join(FIXTURES_PATH, file1)
@@ -24,7 +25,9 @@ def test_json_format(file1, file2):
     for node in parsed:
         assert 'key' in node
         assert 'type' in node
-        assert node['type'] in ['nested', 'added', 'removed', 'unchanged', 'changed']
+        assert node['type'] in [
+            'nested', 'added', 'removed', 'unchanged', 'changed'
+        ]
         
         if node['type'] == 'nested':
             assert 'children' in node
