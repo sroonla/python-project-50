@@ -29,3 +29,6 @@ make install
 
 ###plain-формат
 [![asciicast](https://asciinema.org/a/JWCpASBYKAxxQ7quDgjGtqWG9.svg)](https://asciinema.org/a/JWCpASBYKAxxQ7quDgjGtqWG9)
+
+###json-формат
+[![asciicast](https://asciinema.org/a/gYPfa5FoXwFuIdnuIiaQjzae5.svg)](https://asciinema.org/a/gYPfa5FoXwFuIdnuIiaQjzae5)

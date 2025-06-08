@@ -52,4 +52,8 @@ def generate_diff(file_path1, file_path2, format_name='stylish'):
 
         from gendiff.formatters.plain import format_plain
         return format_plain(diff_tree)
+    elif format_name == 'json':
+
+        from gendiff.formatters.json import format_json
+        return format_json(diff_tree)
     raise ValueError(f"Unknown format: {format_name}")
