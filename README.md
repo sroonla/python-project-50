@@ -24,4 +24,8 @@ make install
 
 ###Пример использования
 
+###stylish-формат
 [![asciicast](https://asciinema.org/a/mXgJyceRHKj4411pj4k3G7EVS.svg)](https://asciinema.org/a/mXgJyceRHKj4411pj4k3G7EVS)
+
+###plain-формат
+[![asciicast](https://asciinema.org/a/JWCpASBYKAxxQ7quDgjGtqWG9.svg)](https://asciinema.org/a/JWCpASBYKAxxQ7quDgjGtqWG9)

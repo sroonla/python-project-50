@@ -16,11 +16,9 @@ def to_str(value, depth):
 def format_stylish(diff_tree, depth=0):
     indent = '    ' * depth
     lines = []
-
     for node in diff_tree:
         key = node['key']
         node_type = node['type']
-
         if node_type == 'nested':
             children = format_stylish(node['children'], depth + 1)
             lines.append(f"{indent}    {key}: {children}")
@@ -38,10 +36,8 @@ def format_stylish(diff_tree, depth=0):
         else:
             val = to_str(node['value'], depth + 1)
             lines.append(f"{indent}    {key}: {val}")
-
     if depth == 0:
         result = "{\n" + "\n".join(lines) + "\n}"
     else:
         result = "{\n" + "\n".join(lines) + "\n" + indent + "}"
-
     return result

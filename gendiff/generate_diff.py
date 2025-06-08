@@ -1,5 +1,4 @@
 from gendiff.file_parser import parse_file
-from gendiff.formatters.stylish import format_stylish
 
 
 def build_diff(data1, data2):
@@ -7,6 +6,7 @@ def build_diff(data1, data2):
     diff = []
     for key in keys:
         if key not in data2:
+
             diff.append({
                 'key': key,
                 'type': 'removed',
@@ -38,7 +38,6 @@ def build_diff(data1, data2):
                 'old_value': data1[key],
                 'new_value': data2[key]
             })
-
     return diff
 
 
@@ -47,5 +46,10 @@ def generate_diff(file_path1, file_path2, format_name='stylish'):
     data2 = parse_file(file_path2) or {}
     diff_tree = build_diff(data1, data2)
     if format_name == 'stylish':
+        from gendiff.formatters.stylish import format_stylish
         return format_stylish(diff_tree)
+    elif format_name == 'plain':
+
+        from gendiff.formatters.plain import format_plain
+        return format_plain(diff_tree)
     raise ValueError(f"Unknown format: {format_name}")
