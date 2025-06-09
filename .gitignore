@@ -22,3 +22,12 @@ Thumbs.db
 
 # Lint cache
 .ruff_cache
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Test and coverage artifacts
+.coverage
+.pytest_cache/
