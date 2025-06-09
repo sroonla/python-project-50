@@ -4,7 +4,11 @@ extend-ignore = E203, W503
 exclude =
     .venv,
     venv,
+    env,
     build,
+    dist,
     __pycache__,
     .git,
-    *.egg-info
+    *.egg-info,
+    .tox,
+    .mypy_cache

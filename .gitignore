@@ -1,0 +1,24 @@
+# Environments
+.venv
+venv
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lint cache
+.ruff_cache
