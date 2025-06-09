@@ -26,3 +26,6 @@ include = ["gendiff*"]
 
 [tool.pytest.ini_options]
 addopts = "--cov=gendiff --cov-report=term-missing"
+
+[project.scripts]
+gendiff = "gendiff.scripts.cli:main"
