@@ -16,19 +16,19 @@ test_cases = [
 def test_json_format(file1, file2):
     file_path1 = os.path.join(FIXTURES_PATH, file1)
     file_path2 = os.path.join(FIXTURES_PATH, file2)
-    
+
     result = generate_diff(file_path1, file_path2, "json")
-    
+
     parsed = json.loads(result)
     assert isinstance(parsed, list)
-    
+
     for node in parsed:
         assert 'key' in node
         assert 'type' in node
         assert node['type'] in [
             'nested', 'added', 'removed', 'unchanged', 'changed'
         ]
-        
+
         if node['type'] == 'nested':
             assert 'children' in node
         elif node['type'] == 'changed':
