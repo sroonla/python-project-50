@@ -3,6 +3,10 @@
 [![Hexlet Check](https://github.com/sroonla/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/sroonla/python-project-50/actions)
 [![CI](https://github.com/sroonla/python-project-50/actions/workflows/python-app.yml/badge.svg)](https://github.com/sroonla/python-project-50/actions)
 
+### SonarCloud
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sroonla_python-project-50&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sroonla_python-project-50)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=sroonla_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=sroonla_python-project-50)
+
 ### CI статус:
 [![CI](https://github.com/sroonla/python-project-50/actions/workflows/python-ci.yml/badge.svg)](https://github.com/sroonla/python-project-50/actions)
 
