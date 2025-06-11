@@ -40,9 +40,8 @@ jobs:
           pytest --cov=gendiff --cov-report=xml -vv --color=yes --exitfirst tests
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: SonarSource/sonarqube-scan-action@v5
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
@@ -54,3 +53,5 @@ jobs:
             -Dsonar.python.coverage.reportPaths=coverage.xml
             -Dsonar.language=py
             -Dsonar.python.version=3.13
+            -Dsonar.ci.autoscan.disabled=true
+            
