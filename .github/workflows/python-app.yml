@@ -34,12 +34,12 @@ jobs:
           source .venv/bin/activate
           ruff check gendiff tests
 
-      - name: Run tests
+      - name: Run tests with coverage
         run: |
           source .venv/bin/activate
           pytest --cov=gendiff --cov-report=xml -vv --color=yes --exitfirst tests
 
-        - name: SonarCloud Scan
+      - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

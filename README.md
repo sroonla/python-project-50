@@ -7,11 +7,8 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sroonla_python-project-50&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sroonla_python-project-50)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=sroonla_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=sroonla_python-project-50)
 
-### CI статус:
-[![CI](https://github.com/sroonla/python-project-50/actions/workflows/python-ci.yml/badge.svg)](https://github.com/sroonla/python-project-50/actions)
-
-### Coverage (SonarCloud):
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=sroonla_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=sroonla_python-project-50)
+### CI Status
+[![CI](https://github.com/sroonla/python-project-50/actions/workflows/python-app.yml/badge.svg)](https://github.com/sroonla/python-project-50/actions/workflows/python-app.yml)
 
 # Вычислитель отличий
 
