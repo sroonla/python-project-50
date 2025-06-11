@@ -31,3 +31,16 @@ Thumbs.db
 # Test and coverage artifacts
 .coverage
 .pytest_cache/
+
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
