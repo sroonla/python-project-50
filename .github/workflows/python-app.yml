@@ -54,4 +54,5 @@ jobs:
             -Dsonar.language=py
             -Dsonar.python.version=3.13
             -Dsonar.ci.autoscan.disabled=true
-            
+            -Dsonar.scanner.mode=CI
+            -Dsonar.analysis.ci=true
